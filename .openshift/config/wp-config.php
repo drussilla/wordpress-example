@@ -119,9 +119,9 @@ define('WPLANG', '');
 define('WP_DEBUG', false);
 
 /**
- * We prefer to be secure by default
+ * We prefer to be secure by default, but I am using my own domain so it will be problem with certificate if we have ssl enabled.
  */
-define('FORCE_SSL_ADMIN', true);
+define('FORCE_SSL_ADMIN', false);
 
 /* That's all, stop editing! Happy blogging. */
 
