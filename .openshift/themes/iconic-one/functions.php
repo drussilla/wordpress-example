@@ -79,6 +79,7 @@ function themonic_scripts_styles() {
 	 * Adds Selectnav.js JavaScript for handling the navigation menu and creating a select based navigation for reposive layout.
  */
    wp_enqueue_script('themonic-mobile-navigation', get_template_directory_uri() . '/js/selectnav.js', array(), '1.0', true );
+   wp_enqueue_script('jquery');
 /*
      * Loads the awesome readable ubuntu font CSS file for Iconic One.
 */
